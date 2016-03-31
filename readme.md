@@ -15,6 +15,24 @@ some important note about user, username cannot contain dot (for now)
 
 adding or removing users from hosts easy as adding their name or removing them from config file.
 
+### running
+
+just run make as usually you do in source codes...
+
+	kd$ make
+	compiling guest@example.org
+	adding: mert
+	Enter password for "example machine" if prompted...
+	guest@example.org aka "example machine" is completed
+
+or just one host
+
+	kd$ make machines/example.com.admin.conf
+	compiling admin@example.com
+	adding: john
+	Enter password for "example.com admin" if prompted...
+	admin@example.com aka "example.com admin" is completed
+
 ### host file contents:
 
 first line of host file is its common name, like "my web server" or "johns wordpress site"
