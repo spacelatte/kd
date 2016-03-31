@@ -18,6 +18,14 @@ adding or removing users from hosts easy as adding their name or removing them f
 users: keys of users (.pub files)
 machines: username/host pairs and configs for them (including allowed user lists)
 
+### installing
+
+	git clone http://github.com/pvtmert/kd.git
+	cd kd
+	cp ~/.ssh/id_rsa.pub users/myself.pub # add myself to allow all
+
+of course add your own configs, and remove default ones.
+
 ### running
 
 just run make as usually you do in source codes...
