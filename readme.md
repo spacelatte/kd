@@ -15,6 +15,9 @@ some important note about user, username cannot contain dot (for now)
 
 adding or removing users from hosts easy as adding their name or removing them from config file.
 
+users: keys of users (.pub files)
+machines: username/host pairs and configs for them (including allowed user lists)
+
 ### running
 
 just run make as usually you do in source codes...
